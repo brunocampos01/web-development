@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 
-## Prerequisites
+## Requirements
 
 ```
 Give examples
