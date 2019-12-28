@@ -49,12 +49,12 @@ class Post(db.Model):
 class Follow(db.Model):
     __tablename__ = 'follow'
 
-    #columns
+    # columns
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     follower_id = db.Column(db.Integer, db.ForeignKey('users.id'))
 
-    #relational
+    # elational
     user = db.relatioship('User', foreign_keys=user_id)
     follower = db.relatioship('User', foreign_keys=follower_id)
 
