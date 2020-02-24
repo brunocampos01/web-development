@@ -2,11 +2,10 @@
 [![Python 3.8](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-
 ## Requisites
 - Python 3.7
 - Pip3
-- requirements.txt
+- requirements
 
 # **Flask**
 <img src="images/flask-logo.png"/>
