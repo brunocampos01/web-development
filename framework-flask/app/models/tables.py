@@ -41,10 +41,10 @@ class Post(db.Model):
     def __init__(self, content, user_id):
         self.content = content
         self.user_id = user_id
-    
+
     def __repr__(self):
         return "<Post %r>" % self.id
-    
+
 
 class Follow(db.Model):
     __tablename__ = 'follow'
@@ -57,7 +57,3 @@ class Follow(db.Model):
     # elational
     user = db.relatioship('User', foreign_keys=user_id)
     follower = db.relatioship('User', foreign_keys=follower_id)
-
-
-
-

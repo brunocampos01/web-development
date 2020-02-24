@@ -11,4 +11,3 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///storage.db'
 db = SQLAlchemy(app) # instacia do data-base
 
 # tem que ser declarado depois da declaração da var app
-from app.controllers import default
